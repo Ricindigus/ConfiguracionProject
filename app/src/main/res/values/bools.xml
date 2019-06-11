@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="default_value_bold1">false</bool>
+    <bool name="default_value_bold2">false</bool>
+    <bool name="default_value_bold3">false</bool>
+
+    <bool name="default_value_visible1">true</bool>
+    <bool name="default_value_visible2">true</bool>
+    <bool name="default_value_visible3">true</bool>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ConfiguracionProject</string>
+
+    <string name="preferences_key_bold1">key_bold_text1</string>
+    <string name="preferences_key_bold2">key_bold_text2</string>
+    <string name="preferences_key_bold3">key_bold_text3</string>
+
+    <string name="preferences_key_visible1">key_visible_text1</string>
+    <string name="preferences_key_visible2">key_visible_text2</string>
+    <string name="preferences_key_visible3">key_visible_text3</string>
+
+    <string name="preferences_key_color1">key_color_text1</string>
+    <string name="preferences_key_color2">key_color_text2</string>
+    <string name="preferences_key_color3">key_color_text3</string>
+
+    <string name="preferences_key_texto1">key_texto_text1</string>
+    <string name="preferences_key_texto2">key_texto_text2</string>
+    <string name="preferences_key_texto3">key_texto_text3</string>
+</resources>

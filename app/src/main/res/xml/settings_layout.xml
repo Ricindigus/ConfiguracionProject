@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_bold1"
+        android:key="@string/preferences_key_bold1"
+        android:title="Bold 1"
+        android:icon="@drawable/ic_format_bold"
+        android:summaryOn="Con negrita"
+        android:summaryOff="Sin negrita"/>
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_bold2"
+        android:key="@string/preferences_key_bold2"
+        android:title="Bold 2"
+        android:icon="@drawable/ic_format_bold"
+        android:summaryOn="Con negrita"
+        android:summaryOff="Sin negrita"/>
+    <SwitchPreference
+        android:defaultValue="@bool/default_value_bold3"
+        android:key="@string/preferences_key_bold3"
+        android:title="Bold 3"
+        android:icon="@drawable/ic_format_bold"
+        android:summaryOn="Con negrita"
+        android:summaryOff="Sin negrita"/>
+    <CheckBoxPreference
+        android:key="@string/preferences_key_visible1"
+        android:title="Visible 1"
+        android:defaultValue="@bool/default_value_visible1"
+        android:icon="@drawable/ic_extension"
+        android:summaryOff="Visible"
+        android:summaryOn="No mostrar"/>
+    <CheckBoxPreference
+        android:key="@string/preferences_key_visible2"
+        android:title="Visible 2"
+        android:defaultValue="@bool/default_value_visible2"
+        android:icon="@drawable/ic_extension"
+        android:summaryOff="Visible"
+        android:summaryOn="No mostrar"/>
+    <CheckBoxPreference
+        android:key="@string/preferences_key_visible3"
+        android:title="Visible 3"
+        android:defaultValue="@bool/default_value_visible3"
+        android:icon="@drawable/ic_extension"
+        android:summaryOff="Visible"
+        android:summaryOn="No mostrar"/>
+    <ListPreference
+        android:key="@string/preferences_key_color1"
+        android:title="Color 1"
+        android:entries="@array/array_color_names"
+        android:entryValues="@array/array_color_values"
+        android:icon="@drawable/ic_invert_colors"/>
+
+    <ListPreference
+        android:key="@string/preferences_key_color2"
+        android:title="Color 2"
+        android:entries="@array/array_color_names"
+        android:entryValues="@array/array_color_values"
+        android:icon="@drawable/ic_invert_colors"/>
+
+    <ListPreference
+        android:key="@string/preferences_key_color3"
+        android:title="Color 3"
+        android:entries="@array/array_color_names"
+        android:entryValues="@array/array_color_values"
+        android:icon="@drawable/ic_invert_colors"/>
+
+    <EditTextPreference
+        android:key="@string/preferences_key_texto1"
+        android:title="Texto 1"
+        android:icon="@drawable/ic_functions"/>
+    <EditTextPreference
+        android:key="@string/preferences_key_texto2"
+        android:title="Texto 2"
+        android:icon="@drawable/ic_functions"/>
+    <EditTextPreference
+        android:key="@string/preferences_key_texto3"
+        android:title="Texto 3"
+        android:icon="@drawable/ic_functions"/>
+</PreferenceScreen>
